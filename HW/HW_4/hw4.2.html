@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HW_4.1</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+margin: 30px;
+    gap: 20px;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+.colorBlue{
+    background-color: steelblue;
+}
+.widgets{
+    display: flex;
+    height: 50vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.widgets_three>div{
+    display: flex;
+background-color: #1e4e70;
+    width: 40vw;
+    height: 65vh;
+    align-items: center;
+    justify-content: center;
+}
+.widgets_three {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+gap: 20px;
+
+}
+.contact{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+    </style>
+</head>
+<body>
+<div class="widgets colorBlue"><h1>Widgets</h1></div>
+<div class="widgets_three">
+    <div><h3>Big Widgets</h3></div>
+    <div><h3>Bigger Widgets</h3></div>
+    <div><h3>Huge Widgets</h3></div>
+</div>
+<div class="contact colorBlue"><h1>Contact</h1></div>
+</body>
+</html>
