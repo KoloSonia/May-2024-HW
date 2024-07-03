@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hw_6.4</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .top, .bottom{
+            width: 100%;
+            height: 21vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: Inter,serif;
+            font-size: 45px;
+            font-weight: 400;
+        }
+        .top{
+            background-color: #8D8484;
+        }
+        .bottom{
+            background-color: #BDBDBD;
+        }
+        .mid{
+            width: 100%;
+            height: 58vh;
+            display: flex;
+        }
+        .mid-left, .mid-right{
+            display: flex;
+            height: 100%;
+            flex-direction: column;
+        }
+        .mid-left{
+            width: 73vw;
+        }
+        .mid-right{
+            width: 27vw;
+        }
+        .mid-right div{
+            height: 50%;
+            width: 100%;
+        }
+        .mid p{
+            color: #FFF;
+            font-family: Inter,serif;
+            font-size: 45px;
+            font-weight: 400;
+        }
+        .left-1{
+            background-color: #776969;
+            height: 33%;
+        }
+        .left-2{
+            background-color: #643030;
+            height: 34%;
+        }
+        .left-3{
+            background-color: #441818;
+            height: 33%;
+        }
+        .right-1{
+            background-color: #937575;
+        }
+        .right-2{
+            background-color: #644C4C;
+        }
+        .mid-left div, .mid-right div{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+<div class="top"><p>Header</p></div>
+<div class="mid">
+   <div class="mid-left">
+       <div class="left-1"><p>Content - 1</p></div>
+       <div class="left-2"><p>Content - 2</p></div>
+       <div class="left-3"><p>Content - 3</p></div>
+   </div>
+   <div class="mid-right">
+       <div class="right-1"><p>spam -1</p></div>
+       <div class="right-2"><p>spam -2</p></div>
+   </div>
+</div>
+<div class="bottom"><p>footer</p></div>
+</body>
+</html>
