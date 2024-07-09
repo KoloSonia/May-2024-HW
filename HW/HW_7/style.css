@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "KoHo", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.section-first{
+    background-image: url("img/image5.png");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.section-first>div{
+height: 393px;
+    width: 1058px;
+    display: flex;
+    background-color: #FAF9F7;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.section-first>div img{
+    height: 100%;
+    width: 50%;
+}
+.section-first>div>div{
+width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 44px;
+    margin-top: 53px;
+    margin-bottom: 84px;
+}
+.section-first>div h1{
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 45px;
+}
+.section-first>div p{
+    font-size: 25px;
+}
+.section-first>div button{
+    width: 409px;
+    height: 76px;
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    font-size: 30px;
+}
+
+
+/*--------------------------SECTION 2------------------------------*/
+
+
+.section-second{
+    height: 100vh;
+    background-image: url("img/Rectangle20.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 110px;
+    padding-top: 105px;
+    padding-bottom: 87px;
+}
+.section-second>p{
+    font-size: 35px;
+    width: 949px;
+}
+iframe{
+    box-sizing: content-box;
+}
+
+
+/*--------------------------SECTION 3------------------------------*/
+
+
+.section-third{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+    background-image: url("img/Rectangle20.png");
+    background-size: cover;
+}
+.section-third div{
+    width: 453px;
+    height: 700px;
+    background: rgba(83, 83, 83, 0.40);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+}
+.section-third h2, p{
+    font-size: 35px;
+}
+.section-third img{
+    margin-bottom: 32px;
+}
+.desc{
+    margin-top: 24px;
+    margin-bottom: 62px;
+}
+.section-third button{
+    width: 409px;
+    height: 76px;
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    font-size: 35px;
+    margin-top: 25px;
+}
+
