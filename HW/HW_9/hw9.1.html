@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login_1</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Open Sans", sans-serif;
+            font-weight: 400;
+        }
+        section{
+            background-color: #3C898A;
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        section>div{
+            background-color: white;
+            height: 400px;
+            width: 500px;
+            display: flex;
+            flex-direction: column;
+            border-radius: 10px;
+            box-shadow: 10px 10px 38px -2px rgba(0,0,0,0.45);
+        }
+        section h2{
+            padding: 30px;
+            width: 100%;
+            text-align: center;
+            background-color: #EBF3F3;
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px;
+            font-size: 25px;
+            text-shadow: 5px 3px 12px rgba(0,0,0,0.5);
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+            padding-top: 15px;
+        }
+        input[type="text"], input[type="password"]{
+            padding: 10px 0;
+            width: 350px;
+            font-size: 10px;
+            text-shadow: 5px 3px 12px rgba(0,0,0,0.5);
+        }
+        form>div{
+            display: flex;
+            width: 350px;
+            justify-content: space-between;
+            font-size: 14px;
+        }
+        input[type="checkbox"]{
+            margin-left: 5px;
+        }
+        input[type="button"]{
+            padding: 3px 30px;
+            border-radius: 8px;
+            border: 1px solid black;
+            font-size: 12px;
+            background-color: #EBF3F3;
+        }
+    </style>
+</head>
+<body>
+<section>
+    <div>
+        <h2>Вхід в особистий кабінет</h2>
+        <form>
+            <input type="text" name="name" placeholder="Логін або email">
+            <input type="password" name="pass" placeholder="Пароль">
+            <div>
+                <label>Запам'ятати мене<input type="checkbox"></label>
+                <input type="button" value="Вхід">
+            </div>
+        </form>
+    </div>
+</section>
+</body>
+</html>

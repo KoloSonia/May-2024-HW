@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Insta</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Roboto", sans-serif;
+            font-weight: 500;
+            font-style: normal;
+        }
+        div{
+            height: 485px;
+            width: 400px;
+            border: 1px solid rgba(179, 178, 178, 0.63);
+            margin: 20px auto 15px auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+            padding-top: 50px;
+        }
+        .logo{
+            width: 50%;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        input[type="text"], input[type="password"]{
+            height: 45px;
+            border: 1px solid rgba(179, 178, 178, 0.63);
+            background-color: #FAFAFA;
+            color: #707070;
+            padding-left: 10px;
+            padding-right: 10px;
+            width: 300px;
+            border-radius: 4px;
+            font-size: 14px;
+            text-overflow: ellipsis;
+        }
+        input[type="button"]{
+            height: 40px;
+            border: none;
+            background-color: #79B4F4;
+            color: white;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+        .and{
+            font-weight: bold;
+            color: #737373;
+        }
+        .facebook{
+            font-size: 17px;
+            font-weight: bold;
+            height: 20px;
+            display: flex;
+            gap: 10px;
+            color: #3C5181;
+        }
+        .remember_pass{
+            font-size: 14px;
+            color: #3C5181;
+
+        }
+        .propos-registr{
+            width: 400px;
+            height: 75px;
+            border: 1px solid rgba(179, 178, 178, 0.63);
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .registr{
+            color: #64A9F2;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+<section>
+    <div>
+    <img class="logo" src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/instagram-text-icon.png" alt="insta logo">
+    <form>
+        <input type="text" name="name" placeholder="Номер телефону, ім'я користувача або email">
+        <input type="password" name="pass" placeholder="Пароль">
+        <input type="button" value="Увійти">
+        </form>
+        <p class="and">АБО</p>
+        <span class="facebook">
+            <svg width="19" height="19" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>Facebook-color</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="Color-" transform="translate(-200.000000, -160.000000)" fill="#4460A0"> <path d="M225.638355,208 L202.649232,208 C201.185673,208 200,206.813592 200,205.350603 L200,162.649211 C200,161.18585 201.185859,160 202.649232,160 L245.350955,160 C246.813955,160 248,161.18585 248,162.649211 L248,205.350603 C248,206.813778 246.813769,208 245.350955,208 L233.119305,208 L233.119305,189.411755 L239.358521,189.411755 L240.292755,182.167586 L233.119305,182.167586 L233.119305,177.542641 C233.119305,175.445287 233.701712,174.01601 236.70929,174.01601 L240.545311,174.014333 L240.545311,167.535091 C239.881886,167.446808 237.604784,167.24957 234.955552,167.24957 C229.424834,167.24957 225.638355,170.625526 225.638355,176.825209 L225.638355,182.167586 L219.383122,182.167586 L219.383122,189.411755 L225.638355,189.411755 L225.638355,208 L225.638355,208 Z" id="Facebook"> </path> </g> </g> </g></svg>
+        <p>  Увійти через Facebook
+        </p>
+        </span>
+        <p class="remember_pass">Забули пароль?</p>
+    </div>
+</section>
+<section class="propos-registr">
+    <p>Не маєте облікового запису? <span class="registr">Зареєструйтеся</span></p>
+</section>
+</body>
+</html>
