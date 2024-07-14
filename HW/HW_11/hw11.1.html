@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    </head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: #92817b;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    body>ul{
+        display: flex;
+        align-items: flex-end;
+        height: 60px;
+    }
+    .circle{
+        width: 20px;
+        height: 20px;
+        border-radius: 100%;
+        background-color: #aca6a6;
+        list-style-type: none;
+        margin: 0 5px;
+    }
+    .one{
+        animation: animate-position-1 2s ease-out ;
+    }
+    .two{
+        animation: animate-position-1 2s 2s ease-out ;
+    }
+    .three{
+        animation: animate-position-1 2s 4s ease-out ;
+    }
+    .four{
+        animation: animate-position-1 2s 6s ease-out ;
+    }
+    .five{
+        animation: animate-position-1 2s 8s ease-out ;
+    }
+    @keyframes animate-position-1 {
+        0%{
+            height: 20px;
+        }
+        50%{
+            height: 35px;
+        }
+        70%{
+            transform: rotate(180deg);
+        }
+        80%{
+            margin-bottom: 20px;
+            height: 20px;
+        }
+        100%{
+            margin-bottom: 0;
+        }
+    }
+</style>
+<body>
+<ul>
+    <li class="circle one"></li>
+    <li class="circle two"></li>
+    <li class="circle three"></li>
+    <li class="circle four"></li>
+    <li class="circle five"></li>
+</ul>
+</body>
+</html>
