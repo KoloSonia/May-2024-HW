@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Table Colors</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        table{
+            border-collapse: separate;
+            font-family: "Lobster", sans-serif;
+            margin: 0 auto;
+            border-spacing: 5px;
+        }
+        th{
+            height: 60px;
+            font-size: 20px;
+        }
+        td{
+            width: 150px;
+            height: 40px;
+            text-align: center;
+            border-bottom: 1px solid rgba(195, 195, 195, 0.53);
+            text-shadow: 4px 4px 6px rgb(151, 151, 151);
+        }
+        td:last-child{
+            width: 200px;
+            border-radius: 50px;
+            background-size: 200% 200%;
+            background-position: 150% 50%;
+            box-shadow: 0px 10px 36px -9px rgb(115, 115, 115);
+        }
+        .bcg1{
+            background: radial-gradient(circle, rgba(241, 118, 41, 0.66) 0%, rgba(241,118,41,1) 94%);
+        }
+        .bcg2{
+            background: radial-gradient(circle, rgba(247, 145, 87, 0.63) 0%, rgba(247,145,87,1) 94%);
+        }
+        .bcg3{
+            background: radial-gradient(circle, rgba(248, 162, 139, 0.53) 0%, rgba(248,162,139,1) 94%);
+        }
+        .bcg4{
+            background: radial-gradient(circle, rgba(250,195,190,0.40948879551820727) 0%, rgba(250,195,190,1) 94%);
+        }
+        .bcg5{
+            background: radial-gradient(circle, rgba(248,156,167,0.5019257703081232) 0%, rgba(248,156,167,1) 94%);
+        }
+        .bcg6{
+            background: radial-gradient(circle, rgba(223,117,129,0.5439425770308124) 0%, rgba(223,117,129,1) 94%);
+        }
+        .bcg7{
+            background: radial-gradient(circle, rgba(151,83,82,0.7148109243697479) 0%, rgba(151,83,82,1) 94%);
+        }
+        .bcg8{
+            background: radial-gradient(circle, rgba(158,118,108,0.7456232492997199) 0%, rgba(158,118,108,1) 94%);
+        }
+        .bcg9{
+            background: radial-gradient(circle, rgba(202,139,106,0.7456232492997199) 0%, rgba(202,139,106,1) 94%);
+        }
+        .bcg10{
+            background: radial-gradient(circle, rgba(210,178,156,0.5271358543417367) 0%, rgba(210,178,156,1) 94%);
+        }
+        .bcg11{
+            background: radial-gradient(circle, rgba(184,167,141,0.5075280112044818) 0%, rgba(184,167,141,1) 94%);
+        }
+        .bcg12{
+            background: radial-gradient(circle, rgba(112, 110, 87, 0.75) 0%, rgba(112,110,87,1) 94%);
+        }
+        .bcg13{
+            background: radial-gradient(circle, rgba(94, 104, 67, 0.75) 0%, rgba(94,104,67,1) 94%);
+        }
+        .bcg14{
+            background: radial-gradient(circle, rgba(132,158,85,0.6924019607843137) 0%, rgba(132,158,85,1) 94%);
+        }
+        .bcg15{
+            background: radial-gradient(circle, rgba(134,178,115,0.5439425770308124) 0%, rgba(134,178,115,1) 94%);
+        }
+
+        td:last-child:hover{
+            animation: animation-bcg 3s ease-out;
+
+        }
+        @keyframes animation-bcg {
+            0%{background-position:150% 50%}
+            50%{background-position:10% 50%}
+            100%{background-position:150% 50%}
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+        <tr>
+            <th colspan="3">HTML COLOR CODE CHART</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Tangelo Twist</td>
+            <td>#F49357</td>
+            <td class="bcg1"></td>
+        </tr>
+            <tr>
+                <td>Tangerine</td>
+                <td>#F49357</td>
+                <td class="bcg2"></td>
+            </tr>
+            <tr>
+                <td>Groovy Guava</td>
+                <td>#F8A28B</td>
+                <td class="bcg3"></td>
+            </tr>
+<tr>
+                <td>Blushing Bride</td>
+                <td>#FAC3BE</td>
+                <td class="bcg4"></td>
+            </tr>
+<tr>
+                <td>Strawberry Slush</td>
+                <td>#F89CA7</td>
+                <td class="bcg5"></td>
+            </tr>
+<tr>
+                <td>Primrose Petals</td>
+                <td>#DF7581</td>
+                <td class="bcg6"></td>
+            </tr>
+<tr>
+                <td>Marsala</td>
+                <td>#975352</td>
+                <td class="bcg7"></td>
+            </tr>
+<tr>
+                <td>Close to Chocolate</td>
+                <td>#9E766C</td>
+                <td class="bcg8"></td>
+            </tr>
+<tr>
+                <td>Sandstone</td>
+                <td>#CA8B6A</td>
+                <td class="bcg9"></td>
+            </tr>
+<tr>
+                <td>Toasted Almond</td>
+                <td>#D2B29C</td>
+                <td class="bcg10"></td>
+            </tr>
+<tr>
+                <td>Crumb Cake</td>
+                <td>#B8A78D</td>
+                <td class="bcg11"></td>
+            </tr>
+<tr>
+                <td>Always Artichoke</td>
+                <td>#706E57</td>
+                <td class="bcg12"></td>
+            </tr>
+<tr>
+                <td>Mossy Meadow</td>
+                <td>#5E6843</td>
+                <td class="bcg13"></td>
+            </tr>
+<tr>
+                <td>Gumball Green</td>
+                <td>#849E55</td>
+                <td class="bcg14"></td>
+            </tr>
+<tr>
+                <td>Wild Wasabi</td>
+                <td>#86B273</td>
+                <td class="bcg15"></td>
+            </tr>
+
+        </tbody>
+    </table>
+</body>
+</html>
