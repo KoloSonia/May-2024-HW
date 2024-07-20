@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+header{
+    height: 13vh;
+    width: 100%;
+}
+header ul{
+    list-style-type: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    font-size: 18px;
+}
+.section1{
+    background-color: #FBF6F3;
+    height: 87vh;
+}
+.section1>div{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 43px;
+}
+.section1 ul{
+    list-style-type: none;
+    display: flex;
+    gap: 27px;
+    font-size: 13px;
+}
+.section1 ul>li:nth-child(4){
+    color: #B93536;
+}
+.section1 ul>li:nth-child(3n+2){
+    color: #A19FA0;
+}
+.section1>div>div{
+    width: 336px;
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+}
+.section1 h1{
+    font-size: 48px;
+}
+.price{
+    color: #AD0306;
+    font-size: 36px;
+}
+.more{
+    font-size: 18px;
+}
+
+
+/*---------------------------------SECTION 2--------------------------------------*/
+
+
+
+
+.section2{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 57px;
+    background-color: #fff;
+}
+.section2 h2{
+    color: #142823;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    width: 472px;
+}
+.cards{
+    display: flex;
+    gap: 128px;
+}
+.cards div{
+    display: inline-flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border-radius: 32px;
+    background: #FFF;
+    box-shadow: 0 4px 20px 0 rgba(139, 139, 139, 0.10);
+    position: relative;
+    transition: 1s;
+}
+.cards div>img{
+    width: 245px;
+    height: 200px;
+    border-radius: 16px;
+}
+.cards>div>h4{
+    font-weight: 700;
+    color: #282828;
+    font-size: 18px;
+    text-align: center;
+}
+.price_card{
+    color: #106FDF;
+    font-size: 24px;
+    font-weight: 700;
+}
+.price_card:nth-child(odd){
+    color: #DD152D;;
+}
+.rated{
+    position: absolute;
+    top: -30px;
+    border: 10px solid #f5f5f5;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: white;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    color: #282828;
+}
+.rated img{
+    width: 16px;
+    height: 16px;
+}
+.cards>div:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}

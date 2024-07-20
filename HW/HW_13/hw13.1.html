@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pexels</title>
+    <link rel="icon" type="image/x-icon" href="media/hw1/pexels.ico">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            color: white;
+            font-family: "Roboto", sans-serif;
+        }
+        header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 30px;
+        }
+        header>div{
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            font-size: 23px;
+        }
+        .logo{
+            height: 50px;
+            width: 50px;
+            border-radius: 10px;
+        }
+        header>ul{
+            display: flex;
+            text-decoration: none;
+            gap: 30px;
+            list-style-type: none;
+            align-items: center;
+            font-weight: 500;
+        }
+        header>ul button{
+            height: 50px;
+            width: 120px;
+            border-radius: 10px;
+            color: black;
+            font-size: 15px;
+            font-weight: 500;
+            border: none;
+            background-color: white;
+        }
+        section{
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: center;
+            gap: 50px;
+            width: 700px;
+            margin: 0 auto;
+        }
+        section h1{
+    font-size: 30px;
+    width: 700px;
+    font-weight: 500;
+}
+        video{
+            position: absolute;
+            z-index: -1;
+            top: 0;
+            object-fit: cover;
+            width: 100%;
+            height: 580px;
+        }
+        header>ul>li:nth-child(1){
+            display: flex;
+            align-items: center;
+            gap: 3px;
+        }
+        form{
+            background-color: white;
+            border-radius: 10px;
+            display: flex;
+            gap: 20px;
+        }
+        form .vid{
+            height: 45px;
+            margin: 5px;
+            border-radius: 10px;
+            border: 1px solid #D1D1D1FF;
+            background-color: rgba(195, 194, 194, 0.26);
+            padding: 0 15px;
+            color: black;
+            font-weight: 500;
+            font-size: 16px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        input[type="search"]{
+            border: none;
+            font-size: 18px;
+            font-weight: bold;
+            width: 400px;
+            color: #b5b3b3;
+        }
+        input[type="search"]:focus{
+            outline: none;
+        }
+        input[type="search"]::placeholder{
+            color: #b5b3b3;
+        }
+        .search_btn{
+            background-color: white;
+            border-radius: 10px;
+            border: none;
+            width: 60px;
+            background-image: url("media/hw1/search_img.svg");
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .search_btn:hover{
+            background-image: url("media/hw1/green_search.svg");
+        }
+        li:hover{
+            color: #b5b3b3;
+        }
+        .logo:hover{
+            opacity: 70%;
+        }
+        header p:hover{
+            color: #b5b3b3;
+        }
+        ul button:hover{
+            height: 48px;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div>
+    <img class="logo" src="https://play-lh.googleusercontent.com/KtFwMsqVzBBpTFc8vR5SZRCNBvqknlWurnzTRl4J-2kdZhoM04LjklX9Vh8pl-fYfpU" alt="logo">
+        <p>Pexels</p>
+    </div>
+    <ul>
+        <li>Пошук
+            <img src="media/hw1/down.svg" alt="down">
+        </li>
+        <li>Ліцензія</li>
+        <li>Завантаження</li>
+        <li>&#8226;&#8226;&#8226;</li>
+        <li><button>Реєстрація</button></li>
+    </ul>
+</header>
+<section>
+    <h1>Найкращі безкоштовні стокові відео від спільноти Pexels</h1>
+    <form>
+        <button class="vid">
+           <img src="media/hw1/play.svg" alt="play">
+            Відео
+            <img src="media/hw1/downBlack.svg" alt="down">
+        </button>
+        <input type="search" placeholder="Пошук безкоштовних відео">
+        <button class="search_btn"></button>
+    </form>
+</section>
+<video src="media/hw1/bcg.mp4" autoplay muted loop></video>
+</body>
+</html>
