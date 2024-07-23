@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');*{
+    font-family: "Taviraj", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+    font-weight: 400;
+}
+body{
+    background-color: #F7F6F4;
+}
+header{
+    width: 1110px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 186px;
+    margin: 36px auto;
+}
+.logo{
+    width: 178px;
+    height: 22px;
+}
+header .menu{
+    display: flex;
+    font-size: 20px;
+    letter-spacing: 0.4px;
+    gap: 40px;
+    list-style-type: none;
+}
+.menu ul{
+    display: none;
+    list-style-type: none;
+    padding: 15px 41px 23px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #000;
+    font-size: 20px;
+    letter-spacing: 0.4px;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.70);
+}
+.menu2 li{
+    height: 23px;
+}
+.menu li{
+    position: relative;
+}
+.menu li:hover .menu2{
+    display: flex;
+}
+.menu2 li:hover{
+    color: #333;
+}
+section{
+    width: 1110px;
+    margin: 90px auto;
+}
+.product-detail{
+    height: 505px;
+    width: 100%;
+    background: #F1DDC9;
+    display: flex;
+    align-items: center;
+    gap: 56px;
+    margin-bottom: 79px;
+}
+.product-detail img{
+    width: 325px;
+    height: 467px;
+}
+.product-detail div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 529px;
+}
+.product-detail div h1{
+    font-size: 60px;
+    line-height: 80px;
+    letter-spacing: 1.2px;
+    margin-bottom: 32px;
+}
+.product-detail div p{
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.48px;
+}
+.product-detail div button{
+    color: #FFF;
+    width: 208px;
+    height: 62px;
+    background: #D84727;
+    border: none;
+    font-size: 20px;
+    letter-spacing: 0.4px;
+    margin-top: 79px;
+}
+h3{
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+}
+.cards{
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    height: 318px;
+    margin-bottom: 132px;
+}
+.cards div{
+    width: 255px;
+    height: 278px;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    padding: 0 24px 33px 24px;
+    position: relative;
+    margin-top: 89px;
+    justify-content: flex-end;
+}
+.cards div img{
+    position: absolute;
+    top:-40px
+}
+.cards div p{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+}
+.news{
+    height: 484px;
+    width: 100%;
+    display: flex;
+    gap: 65px;
+    align-items: center;
+    margin-top: 43px;
+}
+.grey_text{
+    color: #777;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 0.4px;
+    margin-bottom: 16px;
+}
+.desc{
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.72px;
+}
