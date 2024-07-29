@@ -1,0 +1,13 @@
+@media  screen and (min-width: 481px) and (max-width: 768px){
+    article{
+        width: 24vw;
+        height: 43vh;
+        align-items: start;
+        justify-content: center;
+    }
+    article>span{
+        transform: rotate(-90deg);
+        margin-top: 4vh;
+    }
+
+}

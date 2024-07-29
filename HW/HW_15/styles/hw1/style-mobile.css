@@ -1,0 +1,14 @@
+@media  screen and (min-width: 0) and (max-width: 480px){
+    .container{
+        flex-direction: column;
+    }
+    .B, .C{
+        width: 100%;
+    }
+    .B{
+        height: 60vh;
+    }
+    .A, .C{
+        height: 18vh;
+    }
+}

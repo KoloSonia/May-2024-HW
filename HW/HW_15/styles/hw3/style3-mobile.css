@@ -1,0 +1,15 @@
+@media  screen and (min-width: 0) and (max-width: 480px){
+    ul>li{
+        width:98vw;
+    }
+    .banner{
+        align-items: center;
+        justify-content: center;
+    }
+    article{
+        width: 98vw;
+        margin-top: 1vh;
+        align-items: center;
+        justify-content: center;
+    }
+}

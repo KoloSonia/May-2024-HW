@@ -1,0 +1,25 @@
+@media  screen and (min-width: 0) and (max-width: 480px){
+    .main_container{
+        flex-direction: column;
+    }
+    .container{
+        width: 100%;
+        height: 58vh;
+        gap: 1vh;
+    }
+    .main_container{
+        height: 80vh;
+        gap: 1vh;
+    }
+    .F, .A{
+        width: 100%;
+        height: 20vh;
+    }
+    .C, .D, .E{
+        height: 20vh;
+        width: 30vw;
+    }
+    .B{
+        height: 46vh;
+    }
+}

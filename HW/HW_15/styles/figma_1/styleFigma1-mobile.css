@@ -1,0 +1,9 @@
+@media  screen and (max-width: 480px) {
+    .container>div{
+        width: 343px;
+    }
+    .container>div>img{
+        height: 128px;
+        width: 128px;
+    }
+}
